@@ -1,1 +1,76 @@
-<h1>teste</h1>
+<html>
+<title>Atalhos Urls Fluig - By jorgeMaicon</title>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script type="text/javascript" src="main.js"></script>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-md-12">
+
+            <div class="panel panel-primary">
+                <div class="panel-heading panel-body-color">
+                    <h3 class="panel-title font-color"> Marcador de Duração de Atividades</h3>
+                </div>
+                <div class="panel-body form-group">
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="server_address" class="font-color">Descrição da Atividade</label>
+                                <input type="text" class="form-control" id="server_address" name="server_address" onchange="fillUrl()">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="panel panel-primary">
+                <div class="panel-heading panel-body-color">
+                    <h3 class="panel-title font-color"> Histórico</h3>
+                </div>
+                <div class="panel-body form-group">
+
+                    <div class="row col-md-12">
+
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Atividade</th>
+                                    <th scope="col">Ínicio</th>
+                                    <th scope="col">Fim</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Chamado 1389</td>
+                                    <td>13:42</td>
+                                    <td>14:11</td>
+                                </tr>
+                                <tr>
+                                    <td>Chamado 4172</td>
+                                    <td>08:01</td>
+                                    <td>09:23</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
